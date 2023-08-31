@@ -5,8 +5,13 @@ name = "pypi"
 
 [packages]
 django = "==4.1.3"
+djangorestframework = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+django-cors-headers = "*"
 
 [dev-packages]
+django-debug-toolbar = "*"
 
 [requires]
 python_version = "3.10"
